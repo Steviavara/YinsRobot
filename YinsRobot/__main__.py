@@ -82,18 +82,18 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
-✪ I'm an Yins management bot [✨](https://telegra.ph/file/64f4b1e3ab6d6911447d2.jpg)
+*ᴀssᴀʟᴀᴍᴜ'ᴀʟᴀɪᴋᴜᴍ  {} !*
+✪ ʜᴀʟᴏ ɢᴡ Sᴘᴇᴄᴛʀᴀs RᴏʙᴏT. [🏴‍☠️](https://telegra.ph/file/b11e65a69e4856ea6a762.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ────────────────────────
-✪ Hit /help to see my available commands.
+✪ ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Yins Robot", callback_data="yins_"),
+        InlineKeyboardButton(text="ᴛᴇɴᴛᴀɴɢ ɢᴡ", callback_data="yins_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -103,7 +103,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Yins To Your Group ➗", url=f"t.me/{bu}?startgroup=new"),
+            text="➗ ᴀᴅᴅ ɢᴡ ᴅɪ ɢʀᴜᴘ ʟᴜ ➗", url=f"t.me/{bu}?startgroup=new"),
     ],
 ]
 
